@@ -10,8 +10,6 @@ Learn everything you need to know to get started with Hardhat
 
 ### 1. Clone/Download the Repository
 
-`$ voa e mala komanda samo highlight kaa inline element`
-
 ### 2. Install Dependencies:
 ```
 $ npm install

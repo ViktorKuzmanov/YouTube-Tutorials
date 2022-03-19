@@ -342,3 +342,11 @@ async function sendEtherWhenCallingFunction() {
     const balance = await numberContract.getBalance()
     console.log(`balance = ${balance.toString()}`)
 }
+
+
+async function readFromSCOnctractStorage() {
+    const storageSlot = 0 // 1 means 2 storage slot because we are starting from 0
+    const contractAddress = "0x9d6F5181065e3beD0e29de393165b43B7fF9E33B"
+    const data = await provider.getStorageAt(contractAddress, storageSlot);
+    console.log(data)
+}
